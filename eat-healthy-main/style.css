@@ -1,13 +1,18 @@
 body {
 
     font-family: "Roboto", sans-serif;
-
+    margin: 0;
 }
 h1{
-    font-size: 50px;
+    font-size: 70px;
+    line-height: 0.5;
+}
+h2{
+    font-size: 40px;
+    color: grey;
 }
 #top-header{
-    margin-top: 250px;
+    margin-top: 200px;
     
 }
 
@@ -15,24 +20,49 @@ h1{
     color: orange;
 }
 
-.first-flexible-container{
+
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
+    max-width: 100%;
     
 }
-.haif-width{
+.half-width{
     width: 50%;
-    padding-left: 2%;
+    
 }
-.haif-width img{
-    width: 20%;
+.header{
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+    margin-top: 50px;
+}
+.image{
+    padding-left: 20%;
+    width: 550px;
+     height: 515px;
+}
+.p{
+    padding-bottom: 5%;
 }
 .link-button{
-  text-decoration: none;
-  background-image: linear-gradient(45 deg, lightsalmon, tomato);
-  font-weight: 700;
-  color: white;
-  padding: 10px 40px;
-  border-radius: 5px;
-}
-
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 20px 40px;
+    border-radius: 50%;
+    border: 1px solid orangered;
+    font-weight: 700;
+    color: white;
+   
+  }
+  .about{
+    margin-top: 100px;
+    padding-left: 10%;
+  }
+  .second{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center;
+  }
