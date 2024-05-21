@@ -2,21 +2,20 @@ body {
 
     font-family: "Roboto", sans-serif;
     margin: 0;
-
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
     line-height: 0.5;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
     color: grey;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #top-header {
@@ -42,12 +41,15 @@ h3 {
 }
 
 .header {
-    padding-left: 5%;
+    padding-left: 7%;
 }
 
 .half-width img {
     width: 100%;
     margin-top: 50px;
+}
+.picture{
+    padding-right: 10%;
 }
 
 .image {
@@ -55,7 +57,6 @@ h3 {
     width: 550px;
     height: 515px;
 }
-
 .p {
     padding-bottom: 5%;
 }
@@ -128,4 +129,16 @@ left {
     margin-right: 5%;
     border-radius: 30px;
     box-shadow: 10px 10px 40px gainsboro;
+}
+.finishing{
+    text-align: center;
+    color: white;
+    background-color: rgb(14, 14, 26);
+    padding-top: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+}
+.eat-color{
+    color: rgb(245, 131, 38);
 }
