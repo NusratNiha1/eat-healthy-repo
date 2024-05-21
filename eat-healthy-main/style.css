@@ -65,10 +65,10 @@ h3 {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(orangered, tomato);
-    padding: 20px 40px;
-    border-radius: 50%;
-    border: 1px solid orangered;
+    background-image: linear-gradient(orange, orangered);
+    padding: 20px 50px;
+    border-radius: 50px;
+    box-shadow:  5px -5px 10px 5px rgba(250, 182, 182, 0.5) , 5px 5px 10px 5px rgba(250, 182, 182, 0.5);
     font-weight: 700;
     color: white;
 
